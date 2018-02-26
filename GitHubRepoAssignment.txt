@@ -1,0 +1,41 @@
+BINIAM@Lenovo-PC MINGW64 /c/Users/biniam/documents/git/github (mast                                                                                                                           er)
+$ cd GitHubRepoAssignment
+
+BINIAM@Lenovo-PC MINGW64 /c/Users/biniam/documents/git/github/GitHu                                                                                                                           bRepoAssignment (master)
+$ git init
+Initialized empty Git repository in C:/Users/BINIAM/documents/Git/G                                                                                                                           ithub/GitHubRepoAssignment/.git/
+
+BINIAM@Lenovo-PC MINGW64 /c/Users/biniam/documents/git/github/GitHu                                                                                                                           bRepoAssignment (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        readme.md
+
+nothing added to commit but untracked files present (use "git add"                                                                                                                            to track)
+
+BINIAM@Lenovo-PC MINGW64 /c/Users/biniam/documents/git/github/GitHu                                                                                                                           bRepoAssignment (master)
+$ git add .
+
+BINIAM@Lenovo-PC MINGW64 /c/Users/biniam/documents/git/github/GitHu                                                                                                                           bRepoAssignment (master)
+$ git commit -m "readme.md added"
+[master (root-commit) bc15ee8] readme.md added
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 readme.md
+
+BINIAM@Lenovo-PC MINGW64 /c/Users/biniam/documents/git/github/GitHu                                                                                                                           bRepoAssignment (master)
+$ git remote add origin https://github.com/Biniamguchi/GitHubRepoAs                                                                                                                           signment.git
+
+BINIAM@Lenovo-PC MINGW64 /c/Users/biniam/documents/git/github/GitHu                                                                                                                           bRepoAssignment (master)
+$ git push -u origin master
+Counting objects: 3, done.
+Writing objects: 100% (3/3), 209 bytes | 104.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/Biniamguchi/GitHubRepoAssignment.git
+ * [new branch]      master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin                                                                                                                           '.
+
